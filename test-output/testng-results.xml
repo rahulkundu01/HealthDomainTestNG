@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test has been started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test has been started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test has been started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-01T18:07:41 IST" name="Suite" finished-at="2025-05-01T18:08:50 IST" duration-ms="69219">
+    <groups>
+      <group name="sanity">
+        <method signature="LoginTest.executeLoginTest()[pri:0, instance:TestClasses.LoginTest@639c2c1d]" name="executeLoginTest" class="TestClasses.LoginTest"/>
+        <method signature="RegisterPatientTest.addPatient(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestClasses.RegisterPatientTest@75d4a5c2]" name="addPatient" class="TestClasses.RegisterPatientTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-05-01T18:07:41 IST" name="Test" finished-at="2025-05-01T18:08:50 IST" duration-ms="69219">
+      <class name="TestClasses.RegisterPatientTest">
+        <test-method signature="addPatient(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestClasses.RegisterPatientTest@75d4a5c2]" started-at="2025-05-01T18:07:43 IST" name="addPatient" data-provider="MyDp1" finished-at="2025-05-01T18:08:18 IST" duration-ms="34943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsouza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test has been started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addPatient -->
+        <test-method signature="addPatient(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestClasses.RegisterPatientTest@75d4a5c2]" started-at="2025-05-01T18:08:18 IST" name="addPatient" data-provider="MyDp1" finished-at="2025-05-01T18:08:50 IST" duration-ms="31836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Henry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Williamson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test has been started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addPatient -->
+      </class> <!-- TestClasses.RegisterPatientTest -->
+      <class name="TestClasses.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestClasses.LoginTest@639c2c1d]" started-at="2025-05-01T18:07:34 IST" name="openBrowser" finished-at="2025-05-01T18:07:41 IST" duration-ms="6948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="executeLoginTest()[pri:0, instance:TestClasses.LoginTest@639c2c1d]" started-at="2025-05-01T18:07:41 IST" name="executeLoginTest" finished-at="2025-05-01T18:07:43 IST" duration-ms="1879" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test has been started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executeLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClasses.LoginTest@639c2c1d]" started-at="2025-05-01T18:08:50 IST" name="teardown" finished-at="2025-05-01T18:08:55 IST" duration-ms="4765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestClasses.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
